@@ -14,7 +14,7 @@ app.use(
 
 app.use(express.json());
 
-app.use("/autores", autorRoutes);
-app.use("/libros", libroRoutes);
+app.use("/api/autores", autorRoutes);
+app.use("/api/libros", libroRoutes);
 
 export default app;
