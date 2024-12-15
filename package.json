@@ -1,0 +1,14 @@
+{
+  "name": "biblioteca_api_backend",
+  "module": "app_local.js",
+  "scripts": {
+    "start": "node app_local.js",
+    "dev": "nodemon app_local.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "peerDependencies": {}
+}
